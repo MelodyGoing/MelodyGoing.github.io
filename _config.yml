@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
-description: ''
+title: Melody
+subtitle: '热爱可抵漫长岁月'
+description: 'Hexo'
 keywords:
-author: John Doe
-language: en
+author: Melody
+language: zh-CN
 timezone: ''
 
 # URL
@@ -93,7 +93,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: landscape
+theme: BlueLake
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -101,3 +101,8 @@ deploy:
   type: git
   repo: https://github.com/MelodyGoing/MelodyGoing.github.io.git
   branch: master
+
+stylus:
+  compress: true
+
+local_search: true
