@@ -1,0 +1,125 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta http-equiv="content-type" content="text/html; charset=utf-8"><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport"><meta content="yes" name="apple-mobile-web-app-capable"><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"><meta content="telephone=no" name="format-detection"><meta name="description" content="Hexo"><link rel="stylesheet" type="text/css" href="//fonts.loli.net/css?family=Source+Code+Pro"><link rel="stylesheet" type="text/css" href="/css/style.css?v=2.0.5"><link rel="stylesheet" type="text/css" href="/css/highlight.css?v=2.0.5"><link rel="Shortcut Icon" href="/favicon.ico"><link rel="bookmark" href="/favicon.ico"><link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="apple-touch-icon-precomposed" href="/apple-touch-icon.png"><link rel="alternate" type="application/atom+xml" href="/atom.xml"><title>hexo 搭建个人博客网站 | Melody</title><meta name="generator" content="Hexo 4.2.0"></head><body><div class="body_container"><div id="header"><div class="site-name"><h1 class="hidden">hexo 搭建个人博客网站</h1><a id="logo" href="/.">Melody</a><p class="description">热爱可抵漫长岁月</p></div><div id="nav-menu"><a href="/." class="current"><i class="fa fa-home"> 首页</i></a><a href="/archives/"><i class="fa fa-archive"> archiveb</i></a><a href="/about/"><i class="fa fa-user"> 关于</i></a><a href="/atom.xml"><i class="fa fa-rss"> 订阅</i></a></div><div id="search-form"><div id="result-mask" class="hide"></div><label><input id="search-key" type="text" autocomplete="off" placeholder="搜索"></label><div id="result-wrap" class="hide"><div id="search-result"></div></div><div class="hide"><template id="search-tpl"><div class="item"><a href="/{path}" title="{title}"><div class="title">{title}</div><div class="time">{date}</div><div class="tags">{tags}</div></a></div></template></div></div></div><div id="layout" class="layout-g"><div class="layout-l"><div class="content_container"><div class="post"><h1 class="post-title">hexo 搭建个人博客网站</h1><div class="post-meta"><a href="/2020/03/08/hexo_%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/#comments" class="comment-count"><i id="changyan_count_unit" data-xid="2020/03/08/hexo_搭建个人博客网站/"></i>留言,<i id="changyan_parti_unit" data-xid="2020/03/08/hexo_搭建个人博客网站/"></i>参与</a><p><span class="date">Mar 08, 2020</span><span><i id="busuanzi_container_page_pv"><i id="busuanzi_value_page_pv"></i><i>点击</i></i></span></p></div><div class="post-content"><h3 id="1-环境准备"><a href="#1-环境准备" class="headerlink" title="1.环境准备"></a>1.环境准备</h3><h3 id="环境准备"><a href="#环境准备" class="headerlink" title=".环境准备"></a>.环境准备</h3><h3 id="1-环境搭建"><a href="#1-环境搭建" class="headerlink" title="1.环境搭建"></a>1.环境搭建</h3><ol>
+<li>安装<a href="">Node.js</a></li>
+<li>安装<a href="">Git</a></li>
+</ol>
+<h3 id="2-hexo-安装与配置"><a href="#2-hexo-安装与配置" class="headerlink" title="2.hexo 安装与配置"></a>2.hexo 安装与配置</h3><h4 id="1-hexo安装"><a href="#1-hexo安装" class="headerlink" title="1.hexo安装"></a>1.hexo安装</h4><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="2-hexo-初始化"><a href="#2-hexo-初始化" class="headerlink" title="2.hexo 初始化"></a>2.hexo 初始化</h4><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo init &quot;你的文件夹名&quot;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>  初始化之后，文件目录如下图:</p>
+<img src="C:\Users\11072\Pictures\Saved Pictures\hexo 文件目录结构图.png" alt="hexo 文件目录结构图" style="zoom: 80%;" />
+
+<h4 id="3-启动-hexo"><a href="#3-启动-hexo" class="headerlink" title="3.启动 hexo"></a>3.启动 hexo</h4><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>![](C:\Users\11072\Pictures\Saved Pictures\微信截图_20200308210306.png)</p>
+<p>访问 [<a href="http://localhost:4000]">http://localhost:4000]</a> ,在本地运行hexo</p>
+<h3 id="3-hexo-部署到GitHub"><a href="#3-hexo-部署到GitHub" class="headerlink" title="3.hexo 部署到GitHub"></a>3.hexo 部署到GitHub</h3><h4 id="1-创建gitHub账号"><a href="#1-创建gitHub账号" class="headerlink" title="1.创建gitHub账号"></a>1.创建gitHub账号</h4><h4 id="2-创建gitHub仓库"><a href="#2-创建gitHub仓库" class="headerlink" title="2.创建gitHub仓库"></a>2.创建gitHub仓库</h4><pre><code>仓库名为:&lt;u&gt;yourUsername.github.io&lt;/u&gt;</code></pre><img src="C:\Users\11072\Pictures\Saved Pictures\微信截图_20200308211301.png" style="zoom:67%;" />
+
+<ol>
+<li><p>复制刚刚新建的https连接:<code>https://github.com/yourUsername/yourUsername.github.io.git</code>(仓库地址)</p>
+</li>
+<li><p>打开你hexo目录下的<code>_config.yml</code></p>
+</li>
+<li><p>设置deploy信息,如:</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">deploy:</span><br><span class="line">  type: git</span><br><span class="line">  repository: https:&#x2F;&#x2F;github.com&#x2F;yourUsername&#x2F;yourUsername.github.io.git</span><br><span class="line">  branch: master</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="3-设置SSH-key"><a href="#3-设置SSH-key" class="headerlink" title="3.设置SSH key"></a>3.设置SSH key</h4><h4 id="1-检验是否已存在key，执行命令"><a href="#1-检验是否已存在key，执行命令" class="headerlink" title="1.检验是否已存在key，执行命令"></a>1.检验是否已存在key，执行命令</h4><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">cd ~</span><br><span class="line">cd  .ssh</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h4 id="2-添加一个-SSH-key"><a href="#2-添加一个-SSH-key" class="headerlink" title="2.添加一个 SSH key"></a>2.添加一个 SSH key</h4><p>执行命令(已有key的可以跳过步骤2):</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">$ ssh-keygen -t rsa -C &quot;your_email@mail.com&quot;</span><br><span class="line"></span><br><span class="line">##  t 指定密钥类型，默认是 rsa ，可以省略。 -C 设置注释文字，比如邮箱或其他。</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>然后会提示你 <code>Enter Enter file in which to save the key (/c/Users/you/.ssh/id_rsa): [Press enter</code>,这里是输入一个文件名用来保存ssh key,也可以什么都不输,会使用默认的<code>id_rsa.pub</code> 和 <code>id_dsa.pub</code></p>
+<p>回车之后,需要输入两次密码(该密码是你push文件的时候要输入的密码，而不是github的密码)<br>输入密码之后,看见如下显示信息,添加SSH key成功。</p>
+<h4 id="3-Github-设置-SSH-key"><a href="#3-Github-设置-SSH-key" class="headerlink" title="3.Github 设置 SSH key"></a>3.Github 设置 SSH key</h4><p>登录github,点击<code>Settings</code>,然后点击 <code>SSH keys</code> ,在这个页面你可以管理你所有的ssh keys<br>然后点击<code>Add SSH key</code><br>用文本编辑器打开刚刚添加的key文件<code>id_rsa.pub</code>,复制里面的所有的内容<br>回到github页面,将复制的内容粘贴到刚刚那个页面的key对应的文本框里面,title 可以随便填写。</p>
+<h4 id="4-测试ssh-key-是否添加成功"><a href="#4-测试ssh-key-是否添加成功" class="headerlink" title="4.测试ssh key 是否添加成功"></a>4.测试ssh key 是否添加成功</h4><p>在命令行输入:</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ ssh -T git@github.com</span><br></pre></td></tr></table></figure>
+
+<p>会出现一段警告代码,输入yes回车,然后会要求你输入刚刚设置的密码</p>
+<p>到此SSH key就设置完毕了</p>
+<h3 id="4-部署到Github"><a href="#4-部署到Github" class="headerlink" title="4.部署到Github"></a>4.部署到Github</h3><p>打开命令窗口,回到你的hexo博客目录下,如别执行如下命令:</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">hexo deploy</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>等待命令执行完毕后,可以查看代码是否已提交到github上,然后在浏览器输入yourUsername.github.io就可以访问了</p>
+<h3 id="5-新建页面"><a href="#5-新建页面" class="headerlink" title="5.新建页面"></a>5.新建页面</h3><blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new page &#39;pageName&#39;</span><br></pre></td></tr></table></figure>
+</blockquote>
+<p>执行命令后可以在你本地的<code>/source</code> 目录下看见以为你新增页面名为名的文件夹</p>
+<h3 id="6-显示页面"><a href="#6-显示页面" class="headerlink" title="6.显示页面"></a>6.显示页面</h3><p>打开文件后可以对<code>index.md</code> 进行编辑.然后打开<code>/themes/jacman</code>目录下的<code>_config.yml</code>文件(自己正在使用的主题),<br>添加刚刚新增的页面:</p>
+<blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">menu:</span><br><span class="line">  首页: &#x2F;</span><br><span class="line">  统计: &#x2F;archives</span><br><span class="line">  关于: &#x2F;about</span><br><span class="line">  pageName: &#x2F;pageName ##前面的pageName可以自定义,后面的pageName必须写刚刚新增的页面名称</span><br></pre></td></tr></table></figure>
+</blockquote>
+<h3 id="7-安装主题"><a href="#7-安装主题" class="headerlink" title="7.安装主题"></a>7.安装主题</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ git clone https:&#x2F;&#x2F;github.com&#x2F;JamesPan&#x2F;hexo-theme-icarus.git themes&#x2F;icarus</span><br></pre></td></tr></table></figure>
+
+<h4 id="更换主题"><a href="#更换主题" class="headerlink" title="更换主题"></a>更换主题</h4><p>首先下载主题,然后打开根目录下的 <code>_cinfig.yml</code> ,修改 <code>theme: 要更换的主题名</code></p>
+</li>
+</ol>
+</div><div class="post-copyright"><blockquote><p>原文作者: Melody</p><p>原文链接: <a href="http://yoursite.com/2020/03/08/hexo_搭建个人博客网站/">http://yoursite.com/2020/03/08/hexo_搭建个人博客网站/</a></p><p>版权声明: 转载请注明出处(必须保留作者署名及链接)</p></blockquote></div><div class="tags"><a href="/tags/hexo/">hexo</a></div><div class="post-share"><div class="social-share"><span>分享到:</span></div></div><div class="post-nav"><a href="/2020/03/08/%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0/" class="next">Hello World</a></div><div id="comments"><div id="SOHUCS" sid="2020/03/08/hexo_搭建个人博客网站/"></div></div></div></div></div><div class="layout-r"><div id="sidebar"><div class="search-pla"></div><div id="toc" class="widget"><div class="widget-title"><i class="fa fa-fei">文章目录</i></div><ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-环境准备"><span class="toc-text">1.环境准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#环境准备"><span class="toc-text">.环境准备</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#1-环境搭建"><span class="toc-text">1.环境搭建</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-hexo-安装与配置"><span class="toc-text">2.hexo 安装与配置</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-hexo安装"><span class="toc-text">1.hexo安装</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-hexo-初始化"><span class="toc-text">2.hexo 初始化</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-启动-hexo"><span class="toc-text">3.启动 hexo</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-hexo-部署到GitHub"><span class="toc-text">3.hexo 部署到GitHub</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#1-创建gitHub账号"><span class="toc-text">1.创建gitHub账号</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-创建gitHub仓库"><span class="toc-text">2.创建gitHub仓库</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-设置SSH-key"><span class="toc-text">3.设置SSH key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#1-检验是否已存在key，执行命令"><span class="toc-text">1.检验是否已存在key，执行命令</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#2-添加一个-SSH-key"><span class="toc-text">2.添加一个 SSH key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#3-Github-设置-SSH-key"><span class="toc-text">3.Github 设置 SSH key</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#4-测试ssh-key-是否添加成功"><span class="toc-text">4.测试ssh key 是否添加成功</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-部署到Github"><span class="toc-text">4.部署到Github</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-新建页面"><span class="toc-text">5.新建页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#6-显示页面"><span class="toc-text">6.显示页面</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#7-安装主题"><span class="toc-text">7.安装主题</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#更换主题"><span class="toc-text">更换主题</span></a></li></ol></li></ol></div><div class="widget"><div class="widget-title"><i class="fa fa-xie"> 最新文章</i></div><ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2020/03/08/hexo_%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2%E7%BD%91%E7%AB%99/">hexo 搭建个人博客网站</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/03/08/%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/03/08/hello-world%20-%20%E5%89%AF%E6%9C%AC/">Hello World</a></li><li class="post-list-item"><a class="post-list-link" href="/2020/03/08/hello-world/">Hello World</a></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-biao"> 标签</i></div><div class="tagcloud"><a href="/tags/hexo/" style="font-size: 15px;">hexo</a></div></div><div class="widget"><div class="widget-title"><i class="fa fa-archive"> 归档</i></div><ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2020/">2020</a><span class="archive-list-count">4</span></li></ul></div><div class="widget"><div class="widget-title"><i class="fa fa-you"> 友情链接</i></div><ul></ul><a href="https://github.com/MelodyGoing" title="github" target="_blank">github</a><ul></ul><a href="https://weibo.com/p/1005055417295812/home?from=page_100505&amp;mod=TAB&amp;is_all=1#place" title="微博" target="_blank">微博</a><ul></ul><a href="http://www.example3.com/" title="site-name3" target="_blank">site-name3</a></div></div></div></div><a id="totop" href="#top"></a><div id="footer"><div class="footer-info"><p><a href="/baidusitemap.xml">网站地图</a> |  <a href="/atom.xml">订阅本站</a> |  <a href="/about/">联系博主</a></p><p>本站总访问量：<i id="busuanzi_container_site_pv"><i id="busuanzi_value_site_pv"></i></i>次，本站总访客数:<i id="busuanzi_container_site_uv"><i id="busuanzi_value_site_uv"></i></i>人</p><p><span> Copyright &copy;<a href="/." rel="nofollow">Melody.</a></span><span> Theme by<a rel="nofollow" target="_blank" href="https://github.com/chaooo/hexo-theme-BlueLake"> BlueLake.</a></span><span> Count by<a href="http://busuanzi.ibruce.info/" target="_blank" rel="noopener"> busuanzi.</a></span><span> Powered by<a rel="nofollow" target="_blank" href="https://hexo.io"> Hexo.</a></span></p></div></div></div><script src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js" async></script><script type="text/javascript" src="/js/search.json.js?v=2.0.5"></script><div id="fullscreen-img" class="hide"><span class="close"></span></div><script type="text/javascript" src="/js/imgview.js?v=2.0.5" async></script><script type="text/javascript" src="/js/toctotop.js?v=2.0.5" async></script><link rel="stylesheet" type="text/css" href="/share/css/share.css"><script type="text/javascript" src="/share/js/social-share.js" charset="utf-8"></script><script type="text/javascript" src="/share/js/qrcode.js" charset="utf-8"></script><script>window._config = { showScore: true };
+(function(){ 
+  var appid = 'cyuJ2Ulpv'; 
+  var conf = 'eee1673ea391d0aac1393fa73609cf8e'; 
+  var width = window.innerWidth || document.documentElement.clientWidth; 
+  var nodes =document.getElementsByTagName("head")[0]||document.head||document.documentElement;
+  if (/(Android|iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) && width < 750) {  
+      window.document.write('<script id="changyan_mobile_js" charset="utf-8" type="text/javascript" src="https://changyan.sohu.com/upload/mobile/wap-js/changyan_mobile.js?client_id=' + appid + '&conf=' + conf + '"><\/script>');
+  }
+  else { 
+    var loadJs=function(d,a){
+      var b=document.createElement("script");b.setAttribute("type","text/javascript");
+      b.setAttribute("charset","UTF-8");
+      b.setAttribute("src",d);
+      if(typeof a==="function"){if(window.attachEvent){b.onreadystatechange=function(){var e=b.readyState;if(e==="loaded"||e==="complete"){b.onreadystatechange=null;a()}}}else{b.onload=a}}
+      nodes.appendChild(b)
+    };
+    loadJs("https://changyan.sohu.com/upload/changyan.js",function(){window.changyan.api.config({appid:appid,conf:conf})}); 
+  } 
+  var loadCss = function(cssString){  
+    var style=document.createElement("style");  
+    style.setAttribute("type", "text/css");  
+    if(style.styleSheet){// IE  
+        style.styleSheet.cssText = cssString;  
+    } else {// w3c  
+        var cssText = document.createTextNode(cssString);  
+        style.appendChild(cssText);  
+    }
+    nodes.appendChild(style);
+  }
+  //- window.onload=function(){
+  //-   if(window.outerWidth<=775){
+  //-     loadCss('.module-hot-topic,.module-cmt-float-bar{display:none!important}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .cbox-prompt-w span.prompt-empty-w,#SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-form-w .form-text-w span.text-null,#SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-minwidth-w div.cont-comment-w a.comment-link-w,#SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-minwidth-w div.cont-comment-w span.comment-text-w,#SOHUCS #SOHU_MAIN .module-cmt-footer .section-service-w div.service-wrap-w a:hover,#SOHUCS #SOHU_MAIN .module-cmt-header .section-cbox-w .block-head-w div.header-login,#SOHUCS #SOHU_MAIN .module-cmt-header .section-title-w .title-user-w .user-wrap-w span.wrap-name-w,#SOHUCS #SOHU_MAIN .module-cmt-list .action-click-gw span.click-disable-eg a em.icon-name-bg,#SOHUCS #SOHU_MAIN .module-cmt-list .block-title-gw ul li div.title-name-gw,#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .cmt-list-number .comment-number span.cy-number,#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .cmt-list-number span.comment-number,#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .type-lists li.active,#SOHUCS #SOHU_MAIN .module-cmt-list .msg-wrap-gw .wrap-action-gw .action-click-gw span a:hover,#SOHUCS #SOHU_MAIN .module-cmt-list .picture-box-gw div.box-action-gw a:hover,#SOHUCS #SOHU_MAIN .module-cmt-list .wrap-action-gw .action-click-gw span a:hover em.icon-name-bg,#SOHUCS #SOHU_MAIN .module-cmt-list .wrap-user-gw span.user-name-gw a{color:#40759b!important}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-border-t div.post-wrap-border-t-r,#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w div.post-wrap-border-l,#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w div.post-wrap-border-r{display:none!important}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .post-wrap-border-t div.post-wrap-border-t-l{background:#FFF!important;top:-2px!important}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-function-w .uploading-wrapper-dw div.wrapper-image-dw,#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w div.post-wrap-main,#SOHUCS #SOHU_MAIN .module-cmt-float-bar .wrap-cont-w .cont-form-w div.form-text-w,#SOHUCS #SOHU_MAIN .module-cmt-header .section-cbox-w .block-head-w div.header-login,#SOHUCS #SOHU_MAIN .module-cmt-list .module-cmt-box .post-wrap-w div.post-wrap-main{border:1px solid #e6e6e6!important;border-radius:20px 20px 20px 20px;margin:0!important}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw{width:130px!important;height:34px!important;line-height:33px!important;font-size:17px!important;background:#5483b1!important;border-radius:20px!important;color:#FFF!important;-webkit-box-shadow:0 -1px 4px #5483b1 inset;box-shadow:0 -1px 10px #5483b1 inset}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a .btn-fw:before{content:"发表评论"}#SOHUCS #SOHU_MAIN .module-cmt-box .post-wrap-w .wrap-action-w .action-issue-w .issue-btn-w a:hover .btn-fw{color:#40759b!important;background:#FFF!important}#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .type-lists li{background:none!important;border-bottom:1px solid #e6e6e6}#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type .type-lists li.active{border:1px solid #e6e6e6;border-radius:10px 10px 0 0;border-bottom:none}#SOHUCS #SOHU_MAIN .module-cmt-list .block-title-gw ul li .title-name-gw div.title-name-gw-tag{background:#5483b1!important;border-radius:3px}#SOHUCS #SOHU_MAIN .module-cmt-list .cmt-list-type div.cmt-list-border{background-color:#e6e6e6!important}#SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item{border:1px solid #e6e6e6!important}#SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item .nt-logo{text-align:center;line-height:40px;border-radius:50%!important;background:#e6e6e6!important}#SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item .nt-logo:before{content:"畅";font-size:22px;color:#FFF}#SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item a.nt-text,#SOHUCS #SOHU_MAIN .module-cmt-notice ul.nt-list li.nt-item a.nt-text i{color:#5483b1!important}#SOHUCS #SOHU_MAIN .module-cmt-header .section-title-w .title-user-w .user-wrap-w{background:#FFF!important}@media screen and (min-width:900px){#SOHUCS #SOHU_MAIN .module-mobile-cmt-list .list-wrapper-wap .list-container-wap .list-item-wap .list-content-wrapper-wap .cmt-list-image-container .cmt-list-image{max-width: 100%;}}');
+  //-   }
+  //- };
+})();
+function removeElement(_element){
+     var _parentElement = _element.parentNode;
+     if(_parentElement){
+            _parentElement.removeChild(_element);
+     }
+}
+var removeAD = document.createElement("div");
+removeAD.id = 'removeAD';
+var adInterval1 = setInterval(function() {
+  if(document.querySelector("#feedAv")){
+    document.querySelector("[node-type=cmt-list]").appendChild(removeAD);
+    document.querySelector("#removeAD").appendChild(document.querySelector("#feedAv"));
+    //- removeElement(document.querySelectorAll("#feedAv")[0]);
+    var feedAv = document.querySelector("#feedAv").children;
+    for( item of feedAv){
+      item.style.display = 'none'
+    }
+    document.querySelector("#removeAD").style.display="none"
+    clearInterval(adInterval1);
+  }
+},1000);
+var adInterval2 = setInterval(function() {
+  if(document.querySelector("#pop_ad")){
+    removeElement(document.querySelector("#pop_ad"));
+    clearInterval(adInterval2);
+  }
+}, 1000);</script><script src="https://assets.changyan.sohu.com/upload/plugins/plugins.count.js"></script></body></html>
