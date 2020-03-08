@@ -3,24 +3,21 @@ title: hexo 搭建个人博客网站
 tags: hexo
 ---
 
-### 1.环境准备
-
-### .环境准备
-
 ### 1.环境搭建
 
-1. 安装[Node.js]()
-2. 安装[Git]()
+​	安装[Node.js]()
+
+​	安装[Git]()
 
 ### 2.hexo 安装与配置
 
-#### 1.hexo安装
+#### 	hexo安装
 
 > ```
 > npm install hexo
 > ```
 
-#### 2.hexo 初始化
+#### 	hexo 初始化
 
 > ```
 > hexo init "你的文件夹名"
@@ -30,7 +27,7 @@ tags: hexo
 
 <img src="C:\Users\11072\Pictures\Saved Pictures\hexo 文件目录结构图.png" alt="hexo 文件目录结构图" style="zoom: 80%;" />
 
-#### 3.启动 hexo
+#### 	启动 hexo
 
 > ```
 > hexo g
@@ -39,13 +36,13 @@ tags: hexo
 
 ![](C:\Users\11072\Pictures\Saved Pictures\微信截图_20200308210306.png)
 
-访问 [http://localhost:4000] ,在本地运行hexo
+​	访问 [http://localhost:4000] ,在本地运行hexo
 
 ### 3.hexo 部署到GitHub
 
-#### 1.创建gitHub账号
+#### 	创建gitHub账号
 
-#### 2.创建gitHub仓库
+#### 	创建gitHub仓库
 
  	仓库名为:<u>yourUsername.github.io</u>
 
@@ -64,18 +61,18 @@ tags: hexo
    >   branch: master
    > ```
 
-   #### 3.设置SSH key
+   #### 设置SSH key
 
-   #### 1.检验是否已存在key，执行命令
+   ##### 	检验是否已存在key，执行命令
 
    > ```
    > cd ~
    > cd  .ssh
    > ```
 
-   #### 2.添加一个 SSH key
+   ##### 	添加一个 SSH key
 
-   执行命令(已有key的可以跳过步骤2):
+   ​	执行命令(已有key的可以跳过步骤2):
 
    > ```
    > $ ssh-keygen -t rsa -C "your_email@mail.com"
@@ -88,14 +85,14 @@ tags: hexo
    回车之后,需要输入两次密码(该密码是你push文件的时候要输入的密码，而不是github的密码)
    输入密码之后,看见如下显示信息,添加SSH key成功。
 
-   #### 3.Github 设置 SSH key
+   #### Github 设置 SSH key
 
    登录github,点击`Settings`,然后点击 `SSH keys` ,在这个页面你可以管理你所有的ssh keys
    然后点击`Add SSH key`
    用文本编辑器打开刚刚添加的key文件`id_rsa.pub`,复制里面的所有的内容
    回到github页面,将复制的内容粘贴到刚刚那个页面的key对应的文本框里面,title 可以随便填写。
 
-   #### 4.测试ssh key 是否添加成功
+   #### 测试ssh key 是否添加成功
 
    在命令行输入:
 
