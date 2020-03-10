@@ -5,7 +5,7 @@ tags: hexo
 
 ### 1.环境搭建
 
-​	安装[Node.js]()
+​	安装[Node.js](http://nodejs.cn/)
 
 ​	安装[Git]()
 
