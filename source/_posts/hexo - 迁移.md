@@ -15,6 +15,7 @@ category: hexo
 ```
 #切换到新创建的分支hexo
 git checkout hexo
+
 #克隆分支hexo的代码
 git clone https://github.com/MelodyGoing/MelodyGoing.github.io.git
 ```
@@ -41,8 +42,10 @@ git push
 ```
 #克隆分支hexo的代码
 git clone https://github.com/MelodyGoing/MelodyGoing.github.io.git
+
 #安装hexo
 npm install hexo
+
 #安装依赖
 npm install
 ```
