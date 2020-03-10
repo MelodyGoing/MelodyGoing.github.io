@@ -7,10 +7,10 @@
     <loc>http://yoursite.com/2020/03/08/hello-world/</loc>
     <lastmod>2020-03-08</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2020/03/08/%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0/</loc>
+    <loc>http://yoursite.com/2020/03/08/hello-world%20-%20%E5%89%AF%E6%9C%AC/</loc>
     <lastmod>2020-03-08</lastmod>
   </url>  <url>
-    <loc>http://yoursite.com/2020/03/08/hello-world%20-%20%E5%89%AF%E6%9C%AC/</loc>
+    <loc>http://yoursite.com/2020/03/08/%E6%96%B0%E5%A2%9E%E6%96%87%E7%AB%A0/</loc>
     <lastmod>2020-03-08</lastmod>
   </url>
 </urlset>
