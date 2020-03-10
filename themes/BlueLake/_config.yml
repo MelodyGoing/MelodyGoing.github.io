@@ -13,7 +13,7 @@ menu:
   - page: home
     directory: .
     icon: fa-home
-  - page: archiveb
+  - page: archive
     directory: archives/
     icon: fa-archive
   - page: about
